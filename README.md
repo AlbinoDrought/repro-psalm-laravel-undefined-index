@@ -4,7 +4,7 @@
 
 ### With Docker
 
-`docker build -t repro .`
+`docker build -t repro . && docker run --rm -it repro`
 
 ### Without Docker
 
